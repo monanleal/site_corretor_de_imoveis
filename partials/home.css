@@ -94,6 +94,7 @@ body .burigo {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+
 @media screen and (max-width: 400px){
   .home{
     padding-bottom: 0;
@@ -108,12 +109,24 @@ body .burigo {
     font-size:36px;
     line-height: 120%;
     margin-bottom: 1.25rem;
+    width:400px;
+    position: relative;
+    top:-50px;
+    text-align: center;
 }
 
 .home__description {
   color: var(--text-color-light);
   margin-bottom: 2rem;
   width: 350px;
+  visibility: hidden;
+}
+
+body .burigo {
+  width:505px;
+  position:absolute;
+  margin-top:-397px;
+  margin-left:-60px;
 }
 
 .home__value-number{
@@ -159,7 +172,7 @@ body .burigo {
 }
 
 /* For large devices */
-/* @media screen and (min-width: 1020px) {  */
+ @media screen and (min-width: 1020px) {  
   .home{
     padding-bottom: 0;
   }
@@ -203,7 +216,7 @@ body .burigo {
     border-radius: 263px 236px 12px 12px;
     bottom: -2.5rem;
   }
-
+ }
   /* .home__img img {
     width: 272px;
     height: 234px;
