@@ -30,7 +30,16 @@
 }
 
 .nav__logo:hover{
-    color: var(--first-color);
+    /* color: var(--first-color); */
+    color:#ffffff88;
+}
+
+.nav__link span {
+  color:#ffffff;
+}
+
+.nav__link span:hover {
+  color:#ffffff88;
 }
 
 @media screen and (max-width: 1024px){

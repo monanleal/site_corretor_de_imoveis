@@ -9,3 +9,12 @@
 @import "./partials/appointment.css";
 @import "./partials/footer.css";
 @import "./partials/scroll.css";
+
+body .home{
+    background-image:url('assets/images/Design\ sem\ nome\ \(5\).jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 650px;
+}
