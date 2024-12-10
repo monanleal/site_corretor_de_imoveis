@@ -13,7 +13,8 @@
   width: 266px;
   height: 316px;
   background-color: hsl(228, 24%, 97%);
-  border-radius: 135px 135px 16px 16px;
+  /* border-radius: 135px 135px 16px 16px; */
+  border-radius: 10px 10px 10px 10px;
 }
 
 .value__img{
@@ -21,10 +22,15 @@
   width: 250px;
   height: 300px;
   overflow: hidden;
-  border-radius: 125px 125px 12px 12px;
+  /* border-radius: 125px 125px 12px 12px; */
+  border-radius: 10px 10px 10px 10px;
   inset: 0;
   margin: auto;
   box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+}
+
+.value__img h2 {
+  font-family:monospace
 }
 
 .value__description{
@@ -142,13 +148,13 @@
   .value__orbe{
     width: 501px;
     height: 641px;
-    border-radius: 258px 258px 16px 16px;
+    /* border-radius: 258px 258px 16px 16px; */
   }
 
   .value__img{
     width: 461px;
     height: 601px;
-    border-radius: 238px 238px 12px 12px;
+    /* border-radius: 238px 238px 12px 12px; */
   }
 
   .value__img img{
